@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    margin: 0;  
+}
+.root-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #450601;
+}
+.box {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    border: black;
+    border-style: solid;
+    border-radius: 30px;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: #750a01;
+}
+.naslov {
+    display: flex;
+    justify-content: center;
+}
+.count {
+    display: flex;
+    justify-content: center; 
+    
+}
+.in-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 { 
+    font-size: 40px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-family: 'Nova Square', sans-serif;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin: 0;
+    color: whitesmoke;
+    font-family: 'Nova Square', sans-serif;
+}
+#increment-btn {
+    padding: 15px 83px;
+    border-style: 2px solid;
+    background-color: darkred;
+    color: white;
+    font-size: large;
+    font-family: 'Nova Square', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#save-btn {
+    padding: 15px 113px;
+    border-style: 5px solid;
+    background-color: darkgreen;
+    color: white;
+    font-size: large;
+    font-family: 'Nova Square', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.dobrodoslica {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nova Square', sans-serif;
+}
+.linkedin {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    font-size: 30px;
+    padding-bottom: 0;
+    background-color: black;
+    border-radius: 50%;
+    border-style: 2px none;  
+}
+#color-ln{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+#shape {
+    font-size: 20px;
+    border-top-right-radius: 5px;
+}
+.position {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
